@@ -1,0 +1,16 @@
+Debugger listening on ws://127.0.0.1:38519/4fa4aff8-e09f-4779-a6dc-05d3aa0c58ea
+For help, see: https://nodejs.org/en/docs/inspector
+Debugger attached.
+[
+  { path: '/', methods: [ 'GET' ], middlewares: [ 'sayHello' ] },
+  {
+    path: '/catch',
+    methods: [ 'POST' ],
+    middlewares: [ 'catchPokemon' ]
+  },
+  { path: '/find', methods: [ 'GET' ], middlewares: [ 'findPokemon' ] },
+  { path: '*', methods: [], middlewares: [ 'outputError' ] }
+]
+Connected correctly to server
+Debugger ending on ws://127.0.0.1:38519/4fa4aff8-e09f-4779-a6dc-05d3aa0c58ea
+For help, see: https://nodejs.org/en/docs/inspector
